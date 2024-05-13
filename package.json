@@ -1,13 +1,13 @@
 {
   "author": "Stephen Isienyi <stephen.isienyi@webkrafting.com>",
   "bugs": {
-    "url": "https://github.com/webKrafters/eagleeye/issues"
+    "url": "https://github.com/webKrafters/eagleeye.js/issues"
   },
   "contributors": [
     "steveswork <stephen.isienyi@gmail.com> (https://github.com/steveswork)"
   ],
   "dependencies": {
-    "@webkrafters/react-observable-context": "^4.7.6"
+    "@webkrafters/react-observable-context": "^4.7.7"
   },
   "description": "Observable react context - Update-friendly context. Prevents automatic total component tree tear-down and re-rendering during context updates.",
   "devDependencies": {
@@ -30,12 +30,10 @@
     "typescript": "^4.8.2"
   },
   "files": [
-    "dist/index.js",
-    "dist/index.d.ts",
-    "index.js",
-    "package.json"
+    "dist",
+    "index.js"
   ],
-  "homepage": "https://eagleeyejs.org",
+  "homepage": "https://eagleeye.js.org",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.js"
@@ -76,7 +74,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webKrafters/eagleeye.git"
+    "url": "git+https://github.com/webKrafters/eagleeye.js.git"
   },
   "scripts": {
     "build": "eslint --fix && rm -rf dist && babel src -d dist --ignore '**/*.test.js' && npx -p typescript tsc",
@@ -86,5 +84,5 @@
     "test:watch": "eslint --fix && jest --watchAll"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }

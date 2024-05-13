@@ -13,7 +13,7 @@ Alternate: npm i -S @webkrafters/react-observable-context
 
 ### For full documentation, please visit:
 
-<a href="https://eagleeyejs.org">eagleeyejs.org</a>
+<a href="https://eagleeye.js.org">eagleeye.js.org</a>
 
 ## License
 
