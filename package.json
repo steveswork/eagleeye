@@ -7,7 +7,7 @@
     "steveswork <stephen.isienyi@gmail.com> (https://github.com/steveswork)"
   ],
   "dependencies": {
-    "@webkrafters/react-observable-context": "^5.0.0"
+    "@webkrafters/react-observable-context": "^5.0.1"
   },
   "description": "Observable react context - Update-friendly context. Prevents automatic total component tree tear-down and re-rendering during context updates.",
   "devDependencies": {
@@ -85,5 +85,5 @@
     "test:watch": "eslint --fix && jest --watchAll"
   },
   "types": "dist/index.d.ts",
-  "version": "1.0.4"
+  "version": "1.0.5"
 }
