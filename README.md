@@ -2,6 +2,8 @@
 
 This is a developer-friendly non-scoped installation of the webKrafters' React Eagle Eye context. A more straight forward alternative to React Context API, Redux, Mobx etc.
 
+This is an unscoped version of the [@webkrafters/react-observable-context](https://www.npmjs.com/package/@webkrafters/react-observable-context) package.
+
 ### Name:
 
 Eagle Eye Context
